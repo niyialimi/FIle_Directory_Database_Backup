@@ -4,9 +4,11 @@
 # Written by Niyi Alimi
 # USAGE: It can be used as Cron/Scheduler or Human Interraction
 #CRON:
-  # example cron for daily File/Directory backup @ 11:00pm
-  # min  hr mday month wday                           command
-  # 00   23  *    *     *    /home/oracle/scripts/practicedir_niyi_dec21/backup_control.sh C F emailaddress@gmail.com /home/oracle/scripts/practicedir_niyi_dec21 /backup/AWSDEC21/NIYIALIMI/PRACTICEDIR_BACKUP
+   # example cron for daily File/Directory backup @ 11:00pm
+   # min  hr mday month wday                           command
+   # 00   23  *    *     *    /home/oracle/scripts/practicedir_niyi_dec21/backup_control.sh C F emailaddress@gmail.com /home/oracle/scripts/practicedir_niyi_dec21 /backup/AWSDEC21/NIYIALIMI/PRACTICEDIR_BACKUP
+#HUMAN:
+   # ./home/oracle/scripts/practicedir_niyi_dec21/backup_control.sh
 
 #-----VARIABLE DECLARATION----#
 #--$1 is the first line argument = The Flag to choose if it's a Cron job or Human-- 
